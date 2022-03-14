@@ -6,9 +6,9 @@
 
 Cliquez sur le lien ci-dessous pour faire votre fork privé du TD7 :
 
-TODO: Lien classroom
+[https://classroom.github.com/a/7MpqHfhA](https://classroom.github.com/a/7MpqHfhA)
 
-**Attention :** Ce fork devrait être fait dans votre répertoire `pulic_html` pour être accessible de l'extérieur.
+**Attention :** Ce fork devrait être fait dans votre répertoire `public_html` pour être accessible de l'extérieur.
 
 
 **Date limite de rendu :** Vendredi 25 mars (23:59)
