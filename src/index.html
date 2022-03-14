@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <title>Cineclub JS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+  </head>
+  <body> 
+    <h2>Cineclub Javascript</h2>
+    <section id="enregistrements">
+      <fieldset id="ajout-membre">
+        <legend>Ajouter un membre</legend>
+        <input id="nom-nouveau-membre" type="text" placeholder="nom">
+        <input id="ajouter-membre" type="button" value="ajouter">
+      </fieldset>
+      <fieldset id="ajout-film">
+        <legend>Ajouter un film</legend>
+        <input id="titre-nouveau-film" type="text" placeholder="titre">
+        <input id="ajouter-film" type="button" value="ajouter">
+      </fieldset>
+    </section>
+    <section id="membre">
+      <fieldset> 
+        <legend>Login</legend>
+        <select id="choix-membre" name="choix-membre">
+          <option value="1">Gérard Mensoif</option>
+          <option value="2">Sandy Férence</option>
+          <option value="3">Jérémie Machemise</option>
+          <option value="4">Alain Proviste</option>
+        </select>
+      </fieldset>
+    </section>
+    <section id="listes">
+      <fieldset>
+        <legend>Membres</legend>
+        <table>
+          <thead> 
+            <tr>
+              <th>Nom</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody id="table-membres">
+            <tr data-id="1">
+              <td>Gérard Mensoif</td>
+              <td>5</td>
+            </tr>
+            <tr data-id="2">
+              <td>Sandy Férence </td>
+              <td>3</td>
+            </tr>
+            <tr data-id="3">
+              <td>Jérémie Machemise </td>
+              <td>3</td>
+            </tr>
+            <tr data-id="4">
+              <td>Alain Proviste</td>
+              <td>3</td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Films</legend>
+        <table>
+          <thead>
+            <tr>
+              <th>Titre</th>
+              <th>Note</th>
+            </tr>
+          </thead>
+          <tbody id="table-films">
+            <tr data-id="1">
+              <td>Indiana Jones and the Last Crusade</td>
+              <td>4.3</td>
+              <td>
+                <select>
+                  <option value="-1">-</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+            </tr>
+            <tr data-id="2">
+              <td>The Prestige</td>
+              <td>4.5</td>
+              <td>
+                <select>
+                  <option value="-1">-</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+            </tr>
+            <tr data-id="3">
+              <td>Sen to Chihiro no kamikakushi</td>
+              <td>3.7</td>
+              <td>
+                <select>
+                  <option value="-1">-</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+            </tr>
+            <tr data-id="4">
+              <td>Manos: The Hands of Fate</td>
+              <td>0.7</td>
+              <td>
+                <select>
+                  <option value="-1">-</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+            </tr>
+            <tr data-id="5">
+              <td>The Princess Bride</td>
+              <td>4.3</td>
+              <td>
+                <select>
+                  <option value="-1">-</option>
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+    </section>
+  </body>
+</html>

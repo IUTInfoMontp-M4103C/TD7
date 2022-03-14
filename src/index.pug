@@ -1,0 +1,115 @@
+doctype html
+html 
+  head 
+    title Cineclub JS
+    meta(charset='utf-8')
+    link(rel='stylesheet' href='css/style.css')
+    script(src='js/script.js')
+  body 
+    h2 Cineclub Javascript
+    section#enregistrements
+      fieldset#ajout-membre
+        legend Ajouter un membre
+        input#nom-nouveau-membre(type="text" placeholder="nom")
+        input#ajouter-membre(type="button" value="ajouter")
+      fieldset#ajout-film
+        legend Ajouter un film
+        input#titre-nouveau-film(type="text" placeholder="titre")
+        input#ajouter-film(type="button" value="ajouter")
+    section#membre
+      fieldset 
+        legend Login
+        select#choix-membre(name="choix-membre")
+          option(value="1") Gérard Mensoif
+          option(value="2") Sandy Férence
+          option(value="3") Jérémie Machemise
+          option(value="4") Alain Proviste
+    section#listes
+      fieldset
+        legend Membres
+        table
+          thead 
+            tr
+              th Nom
+              th Notes
+          tbody#table-membres
+            tr(data-id=1)
+              td Gérard Mensoif
+              td 5
+            tr(data-id=2)
+              td Sandy Férence 
+              td 3
+            tr(data-id=3)
+              td Jérémie Machemise 
+              td 3
+            tr(data-id=4)
+              td Alain Proviste
+              td 3
+      fieldset
+        legend Films
+        table
+          thead
+            tr
+              th Titre
+              th Note
+          tbody#table-films
+            tr(data-id=1)
+              td Indiana Jones and the Last Crusade
+              td 4.3
+              td
+                select
+                  option(value="-1") -
+                  option(value="0") 0
+                  option(value="1") 1
+                  option(value="2") 2
+                  option(value="3") 3
+                  option(value="4") 4
+                  option(value="5") 5
+            tr(data-id=2)
+              td The Prestige
+              td 4.5
+              td
+                select
+                  option(value="-1") -
+                  option(value="0") 0
+                  option(value="1") 1
+                  option(value="2") 2
+                  option(value="3") 3
+                  option(value="4") 4
+                  option(value="5") 5
+            tr(data-id=3)
+              td Sen to Chihiro no kamikakushi
+              td 3.7
+              td
+                select
+                  option(value="-1") -
+                  option(value="0") 0
+                  option(value="1") 1
+                  option(value="2") 2
+                  option(value="3") 3
+                  option(value="4") 4
+                  option(value="5") 5
+            tr(data-id=4)
+              td Manos: The Hands of Fate
+              td 0.7
+              td
+                select
+                  option(value="-1") -
+                  option(value="0") 0
+                  option(value="1") 1
+                  option(value="2") 2
+                  option(value="3") 3
+                  option(value="4") 4
+                  option(value="5") 5
+            tr(data-id=5)
+              td The Princess Bride
+              td 4.3
+              td
+                select
+                  option(value="-1") -
+                  option(value="0") 0
+                  option(value="1") 1
+                  option(value="2") 2
+                  option(value="3") 3
+                  option(value="4") 4
+                  option(value="5") 5
