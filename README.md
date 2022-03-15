@@ -106,12 +106,12 @@ Il est possible de faire tout le TD en utilisant ces scripts, mais si vous le so
   - Regroupez votre code dans des classes lorsque c'est pertinent
 - Il existe de nombreuses façons d'implémenter les différentes fonctionnalités. Réfléchissez éventuellement un peu aux différentes alternatives avant de vous lancer dans la programmation, et éventuellement envisagez de refactoriser votre travail si vous pensez que les choix que vous avez fait initialement ne sont pas pertinents.
 
-**Important :** Vous pouvez discuter avec les autres mais chacun (ou chaque binôme) doit écrire son code, ne copiez pas des morceaux de code d'un projet à l'autre sou peine d'être fortement pénalisés !
+**Important :** Vous pouvez discuter avec les autres mais chacun (ou chaque binôme) doit écrire son code, ne copiez pas des morceaux de code d'un projet à l'autre sous peine d'être fortement pénalisés !
 
 
 ## Autres fonctionnalités
 
-An plus du minimum qui est demandé, vous pouvez ajouter des fonctionnalités supplémentaires à votre application. Quelques suggestions :
+En plus du minimum qui est demandé, vous pouvez ajouter des fonctionnalités supplémentaires à votre application. Quelques suggestions :
 
 ### Suppression
 
